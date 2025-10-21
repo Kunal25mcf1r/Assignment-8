@@ -1,0 +1,55 @@
+:root
+{
+    background-color: rgb(211, 206, 206);
+}
+.base
+{
+    display: flex;
+    flex-direction: column;
+}
+.keys
+{
+    border: 2px solid black;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 5px;
+   min-width: 20px;
+   min-height: 40px;
+}
+.num>button{
+background-color:white;
+text-align: center;
+font-size: 2rem;
+width:100%;
+height:100%;
+border-radius: .4rem;
+}
+.num>button:hover{
+    background-color: rgb(189, 189, 189);
+}
+#eq
+{
+background-color: rgb(48, 122, 233);
+}
+#eq:hover
+{
+    background-color: rgb(114, 152, 209);
+}
+.currentNum
+{
+    text-align: right;
+    font-size:50;
+    margin: 0;
+}
+.expression
+{
+    text-align: right;
+    padding-right: 15px;
+}
+.calarea
+{
+    padding-right: 10px;
+}
